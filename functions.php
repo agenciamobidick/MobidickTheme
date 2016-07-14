@@ -1,5 +1,5 @@
 <?php
-include_once('tgmpa/config-plugin-activation.php');
+include_once('_dev/tgmpa/config-plugin-activation.php');
 
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_css' );
 
@@ -241,7 +241,7 @@ function register_my_dashboard_widget(){
 
     wp_add_dashboard_widget(
         'my_dashboard_widget',
-        'Bem-vindo ao Gerenciador do Conexão Inteligente',
+        'Bem-vindo ao Gerenciador',
         'my_dashboard_widget_display'
     );
 

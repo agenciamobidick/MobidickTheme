@@ -75,31 +75,12 @@
 			}body_class();
 		?>
 	>
-
-		<div class="menu-responsivo">
-			<span class="" id="trigger-covermenu" title="Menu">
-				<span class="line line-1"></span>
-				<span class="line line-2"></span>
-				<span class="line line-3"></span>
-			</span>
-		</div>
+	
 
 		<div id="all">
 			<header id="header">
 
 			</header>
-			<div class="div-responsive">	
-				<?php wp_nav_menu(
-					array(
-						'theme_location' => 'Menu Principal',
-						'container' => 'nav',
-						'container_id' => 'menu-principal-responsivo',
-						'container_class' => 'menu-principal-responsivo',
-						'menu_id' => 'menu-principal-responsivo-ul',
-						'menu_class' => 'menu-principal-responsivo-ul'
-						) 
-					); 
-				?>
-			</div>
+
 
 			<section id="main">

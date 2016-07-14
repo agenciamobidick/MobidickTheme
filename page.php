@@ -6,7 +6,6 @@
 **/
 ?>
 <?php get_header(); ?>
-<?php get_header("banner-internas"); ?>
 
 	<div class="container">
 		<div class="container-fluid">
